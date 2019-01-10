@@ -1,0 +1,6 @@
+<p>
+  <span *ngFor="let star of starts" class="glyphicon glyphicon-star"
+  [class.glyphicon-star-empty]="star"><!--[class.glyphicon-start-empty]这个样式是根据star属性值确定的，star的属性值是布尔值-->
+  </span>
+  <span>{{rating}}星</span>
+</p>
